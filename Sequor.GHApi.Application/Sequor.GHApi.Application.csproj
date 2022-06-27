@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sequor.GHApi.Domain\Sequor.GHApi.Domain.csproj" />
+    <ProjectReference Include="..\Sequor.GHApi.Infra\Sequor.GHApi.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
